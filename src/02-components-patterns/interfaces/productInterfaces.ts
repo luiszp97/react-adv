@@ -4,6 +4,12 @@ import { Props as ProductImageProps } from '../components/ProductImage';
 import { Props as ProductTitleProps } from '../components/ProductTitle';
 
 
+export interface Product {
+    id: string;
+    img?: string;
+    title: string;
+}
+
 export interface ProductContextProps {
     counter: number;
     product: Product;
@@ -17,11 +23,3 @@ export interface ProductCardHOCProps {
     Image:   ( Props: ProductImageProps ) => JSX.Element,
     Title:   ( Props: ProductTitleProps ) => JSX.Element,
 }
-
-
-export interface Product {
-
-    id:     string;
-    title:  string;
-    img?:   string;
-};
