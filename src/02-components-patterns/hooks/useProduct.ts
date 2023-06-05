@@ -5,7 +5,7 @@ export const useProduct = () => {
 
     const [counter, setCounter] = useState(0);
 
-    const increseBy = ( value: number ) => {
+    const increaseBy = ( value: number ) => {
 
         setCounter( prev => Math.max( prev + value, 0 ) );
 
@@ -13,6 +13,6 @@ export const useProduct = () => {
 
   return {
         counter,
-        increseBy
+        increaseBy
   }
 }
