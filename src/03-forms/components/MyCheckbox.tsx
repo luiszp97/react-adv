@@ -19,7 +19,7 @@ export const MyCheckbox = ({ label, ...props } : Props) => {
             <input className='text-input' type='checkbox' { ...field } { ...props } />
             { label } 
         </label>
-        <ErrorMessage name={ props.name } />  
+        <ErrorMessage name={ props.name } component="span"/>  
       
     </>
   )

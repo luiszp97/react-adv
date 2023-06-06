@@ -36,8 +36,8 @@ export const FormikComponents = () => {
                 terms: Yup.boolean()
                             .oneOf([true], 'Debes aceptar los terminos y condiciones'),
                 
-                jobType: Yup.  string()
-                                .required('Requerido')  
+                jobType: Yup.string()
+                            .required('Requerido')  
 
                 })
             }
