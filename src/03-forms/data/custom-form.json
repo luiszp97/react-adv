@@ -1,0 +1,43 @@
+[
+    {
+        "type": "text",
+        "name": "firstName",
+        "placeholder": "Your Name",
+        "label": "First Name",
+        "value": ""
+    },
+    {
+        "type": "text",
+        "name": "lastName",
+        "placeholder": "Your last Name",
+        "label": "Last Name",
+        "value": ""
+    },
+    {
+        "type": "email",
+        "name": "email",
+        "placeholder": "example@example.com",
+        "label": "Email",
+        "value": ""
+    },
+    {
+        "type": "select",
+        "name": "favoriteGame",
+        "label": "Favorite Game",
+        "value": "",
+        "options" : [
+            {
+                "id": "1",
+                "label": "Metal Gear"
+            },
+            {
+                "id": "2",
+                "label": "Assassins Creed"
+            },
+            {
+                "id": "3",
+                "label": "Dota2"
+            }
+        ]
+    }
+]
